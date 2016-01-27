@@ -12,4 +12,5 @@ else
         ln -s ../../lib/jelix-www /var/www/${APP_NAME}/www/jelix
         chown www-data:www-data temp/${APP_NAME}*  ${APP_NAME}/var/log
         chmod g+w temp/${APP_NAME}* ${APP_NAME}/var/log
+	# configure db if ENV MYSQL is set
 fi
