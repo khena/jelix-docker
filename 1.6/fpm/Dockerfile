@@ -1,4 +1,4 @@
-FROM php:fpm
+FROM php:5-fpm
 MAINTAINER Guillaume "khena" Peres <rab_gui@yahoo.fr>
 
 # for Dockerfile usage and easy maintenance
